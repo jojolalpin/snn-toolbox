@@ -28,8 +28,8 @@ def version(postfix):
 
 includes = [
     numpy.get_include(),
-    '/usr/lib/python2.6/site-packages/numpy/core/include/',
-    '/usr/local/lib/python2.6/dist-packages/numpy/core/include/',
+    '/usr/lib/python2.7/site-packages/numpy/core/include/',
+    '/usr/local/lib/python2.7/dist-packages/numpy/core/include/',
     os.getcwd() + 'cy/',
     os.getcwd() + 'modular/',
     'cy/',
