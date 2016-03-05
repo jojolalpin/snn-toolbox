@@ -21,8 +21,8 @@ if DEVEL:
     extra_compile_args.append('-ggdb')
 
 
-CYTHON_INCLUDE_DIRS=['/usr/lib/python2.6/site-packages/Cython/Includes/']
-SITE_PACKAGES = '/usr/lib/python2.6/site-packages/'
+CYTHON_INCLUDE_DIRS=['/usr/lib/python2.7/site-packages/Cython/Includes/']
+SITE_PACKAGES = '/usr/lib/python2.7/site-packages/'
 
 def md5_file(file):
     file_reference = open(file, 'rb')
