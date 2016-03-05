@@ -40,7 +40,7 @@ modules_ext =  [
         Extension('modular.base', ['modular/base.pyx'], include_dirs=includes),
         Extension('modular.spike_network', ['modular/spike_network.pyx'], include_dirs=includes),
         Extension('modular.spike_types', ['modular/spike_types.pyx', aux], include_dirs=includes),
-        Extension('modular.dataset', ['modular/dataset.pyx', aux], include_dirs=includes),      
+        #Extension('modular.dataset', ['modular/dataset.pyx', aux], include_dirs=includes),      
         Extension('cy.math', ['cy/math.pyx', aux], include_dirs=includes),
         Extension('cy.ng', ['cy/ng.pyx', aux], include_dirs=includes),
         ]
